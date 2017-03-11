@@ -1,0 +1,44 @@
+body {
+  background-color: #d8f8f8;
+  font-size: 100%;
+}
+
+section {
+  margin: 25% auto;
+  background-color: #f9f9f9;
+  max-width: 34rem;
+  font-size: 2em;
+  box-shadow: 0em 0.5em 0.9em 0.001em #aaa;
+}
+section .quote {
+  padding: 1em 1em 0 1em;
+  font-size: 1em;
+  font-family: Garamond;
+}
+section .quote .author {
+  font-size: 0.75em;
+  padding-top: 0.5em;
+}
+section .buttons {
+  margin: 1em 0 1em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section #tweet {
+  background-color: #9a90ff;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0.875rem;
+  box-shadow: none;
+  border: transparent;
+  background-color: #9a90ff;
+  padding: 0.5em;
+  color: #fff;
+  font-size: 0.875em;
+}
