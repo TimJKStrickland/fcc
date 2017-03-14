@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "fcc timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimJKStrickland/fcc.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "^3.2.6",
+    "moment": "^2.17.1"
+  },
+  "author": "Tim JK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimJKStrickland/fcc/issues"
+  },
+  "homepage": "https://github.com/TimJKStrickland/fcc#readme"
+}
