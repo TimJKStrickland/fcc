@@ -34,8 +34,7 @@ app.get('/:timestamp', (req, res)=> {
 
 
 
-server.listen(3000, function(){
-  var addr = server.address();
-  console.log("Listening at " + 3000);
+server.listen(process.env.PORT || 8080, function(){
+  console.log("Listening at " + 8080);
 });
 

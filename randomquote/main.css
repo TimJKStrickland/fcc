@@ -10,6 +10,7 @@ body {
   width: 600px;
   margin: 0 auto;
   position: relative;
+  display: block;
 }
 .main {
   position: absolute;
