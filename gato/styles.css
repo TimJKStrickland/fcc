@@ -1,0 +1,39 @@
+body
+  margin: 0
+  padding: 0
+
+.container
+  margin: auto
+  position: absolute
+  top: 20%
+  left: 50%
+  transform: translate(-50%)
+  text-align: center
+
+.board
+  width: 150px
+  margin: 0 auto
+  position: absolute
+  display: flex
+  align-items: center
+  // justify-content: space-between
+  flex-wrap: wrap
+  
+.choices
+  display: flex
+  justify-content: space-around
+  margin-bottom: 15%
+  bounding-box: border-box
+  
+
+.square
+  width: 40px
+  border: 1px solid #6d6d6d
+  display: inline-block
+  height: 40px
+  bounding-box: border-box
+  margin: 0
+  line-height: 40px
+
+.hide
+  display: none
