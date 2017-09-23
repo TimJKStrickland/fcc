@@ -1,0 +1,41 @@
+$green: #aaddaa
+$blue: #0099ff
+$red: #ddaaaa
+$yellow: #ffff88
+
+body
+  margin: 0
+  padding: 0
+
+.container
+  max-width: 500px
+  margin: 10% auto
+  padding: 0
+  text-align: center
+
+button
+  height: 200px
+  border: 0
+  margin: 0
+  padding: 0
+  width: 200px
+  
+#one
+  background: $red
+  border-top-left-radius: 50%
+
+#two
+  background: $yellow
+  border-top-right-radius: 50%
+  
+#three
+  background: $green
+  border-bottom-left-radius: 50%
+
+#four
+  background: $blue
+  border-bottom-right-radius: 50%
+
+.active
+  filter: brightness(25%)
+  animation: breeze 1s 1

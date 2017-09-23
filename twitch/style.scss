@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Exo:400,400i,700)
+
+
+
+$color1: #a0a2af
+$color2: #fff
+$main-menu: #fff
+$online: #339933
+$offline: #933
+$white: #f2f2f2
+$box-shadow: #7c7979
+$active: #433f4a
+
+html 
+  box-sizing: border-box
+  color: $white
+  font-family: "Source Sans Pro", San-serif
+  font-size: 16px
+
+// Container
+.container 
+  box-shadow: 2px 5px 5px $box-shadow
+  height: auto
+  margin: 3% auto
+  padding: 0
+  width: 300px
+
+a
+  text-decoration: none
+  color: #00afff
+  font-family: "Exo", "Arial"
+
+.active 
+  text-decoration: underline
+  
+  
+
+// Twitch Users
+.channel
+  padding: 2% 0
+  display: flex
+  align-items: center
+  justify-content: space-between
+  bounding-box: border-box
+  padding: 0 20px
+  margin: 0
+  border-bottom: 1px solid $white
+  &:last-child
+    border-bottom: 0
+
+nav
+  background: $active
+  margin: 0
+  padding: 10px
+
+.online
+  background-color: $online
+  color: #fff
+
+.offline
+  background-color: $offline
+  
+.hidden
+  display: none
+
+.logo
+  max-width: 50px
+  max-height: 50px
+  border-radius: 50%
+  border-color: $white
+  margin: 20px
+
+ul
+  display: flex
+  justify-content: space-between
+  
+  
+li
+  text-decoration: none
+  list-style: none
+  
+
+.name
+  text-align: right
+  font-weight: bold
+  
+.nameText
+  color: #fff
