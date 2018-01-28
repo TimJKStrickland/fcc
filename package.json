@@ -1,0 +1,29 @@
+{
+  "name": "fcc",
+  "version": "1.0.0",
+  "description": "Free Code Camp speedrun 2018",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimJKStrickland/fcc.git"
+  },
+  "keywords": [
+    "fcc",
+    "javascript",
+    "node",
+    "jquery",
+    "html",
+    "css",
+    "express"
+  ],
+  "author": "TimJK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimJKStrickland/fcc/issues"
+  },
+  "homepage": "https://github.com/TimJKStrickland/fcc#readme"
+}
